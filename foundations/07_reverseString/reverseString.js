@@ -11,3 +11,11 @@ const reverseString = function(string) {
 
 // Do not edit below this line
 module.exports = reverseString;
+
+
+// ALT SOLUTION
+/*
+const reverseString = function(string) {
+    return string.split("").reverse().join("");
+};
+*/
